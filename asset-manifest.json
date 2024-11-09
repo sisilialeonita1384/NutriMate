@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NutriMate/static/css/main.27b00c82.css",
+    "main.js": "/NutriMate/static/js/main.edebb502.js",
+    "static/js/453.04fad3c0.chunk.js": "/NutriMate/static/js/453.04fad3c0.chunk.js",
+    "index.html": "/NutriMate/index.html",
+    "main.27b00c82.css.map": "/NutriMate/static/css/main.27b00c82.css.map",
+    "main.edebb502.js.map": "/NutriMate/static/js/main.edebb502.js.map",
+    "453.04fad3c0.chunk.js.map": "/NutriMate/static/js/453.04fad3c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27b00c82.css",
+    "static/js/main.edebb502.js"
+  ]
+}
