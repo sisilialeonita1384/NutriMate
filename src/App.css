@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -46,3 +47,19 @@
   padding: 20px;
 }
 
+.app-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.main-content {
+  margin-left: 250px !important;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.sidebar {
+  z-index: 1;
+}
