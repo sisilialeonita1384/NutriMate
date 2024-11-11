@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Sidebar Container */
+.sidebar {
+  width: 280px;
+  height: 100vh;
+  background-color: #ffffff;
+  box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo Section */
+.sidebar-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 120px;
+  height: 80px;
+}
+
+h2 {
+  color: #ff7f27;
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Sidebar Item */
+.sidebar-item {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 20px;
+  color: #FF6000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sidebar-item span {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(255, 127, 39, 0.1);
+}
+
+/* Active Sidebar Item */
+.sidebar-item.active {
+  background-color: #FF6000;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* Icon Styling */
+.sidebar-item .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Custom Icons with Background Images */
+.icon-home {
+  background-image: url('../assets/icons/home.png');
+}
+
+.icon-home.active {
+  background-image: url('../assets/icons/home-putih.png');
+}
+
+.icon-meal {
+  background-image: url('../assets/icons/inputmeal.png');
+}
+
+.icon-meal.active {
+  background-image: url('../assets/icons/inputmeal-putih.png');
+}
+
+.icon-recommendations {
+  background-image: url('../assets/icons/recommendation.png');
+}
+
+.icon-recommendations.active {
+  background-image: url('../assets/icons/recommendation-putih.png');
+}
+
+.icon-journal {
+  background-image: url('../assets/icons/journal.png');
+}
+
+.icon-journal.active {
+  background-image: url('../assets/icons/journal-putih.png');
+}
+
+.icon-progress {
+  background-image: url('../assets/icons/progress.png');
+}
+
+.icon-progress.active {
+  background-image: url('../assets/icons/progress-putih.png');
+}
+
+.icon-logout {
+  background-image: url('../assets/icons/logout.png');
+}
+
+
